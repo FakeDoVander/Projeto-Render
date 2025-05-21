@@ -1,0 +1,8 @@
+# render.yaml
+services:
+  - type: web
+    name: projeto-render
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
